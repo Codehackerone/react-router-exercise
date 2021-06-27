@@ -16,8 +16,8 @@ class App extends Component {
         facts: [
           "Whiskey loves eating popcorn.",
           "Whiskey is a terrible guard dog.",
-          "Whiskey wants to cuddle with you!"
-        ]
+          "Whiskey wants to cuddle with you!",
+        ],
       },
       {
         name: "Hazel",
@@ -26,8 +26,8 @@ class App extends Component {
         facts: [
           "Hazel has soooo much energy!",
           "Hazel is highly intelligent.",
-          "Hazel loves people more than dogs."
-        ]
+          "Hazel loves people more than dogs.",
+        ],
       },
       {
         name: "Tubby",
@@ -36,16 +36,16 @@ class App extends Component {
         facts: [
           "Tubby is not the brightest dog",
           "Tubby does not like walks or exercise.",
-          "Tubby loves eating food."
-        ]
-      }
-    ]
+          "Tubby loves eating food.",
+        ],
+      },
+    ],
   };
   render() {
     return (
       <div>
         <Navbar dogs={this.props.dogs} />
-        <div className='container'>
+        <div className="container">
           <Routes dogs={this.props.dogs} />
         </div>
       </div>
